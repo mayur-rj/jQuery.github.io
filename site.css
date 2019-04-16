@@ -1,0 +1,137 @@
+body{
+        background-color: blue ;	  
+        background-size: 100%; 
+  		background-image: url("images/soccer_field.jpg");
+   	    font-family: sans-serif;
+  	    font-size: 12px;
+        padding: 10px;
+        }    
+       
+/*
+#back
+   	{   
+   		
+   		margin: 0;
+   		background-image: url("images/works.jpg");
+   		height: 10 0%;
+   		background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+        font-size: 12px;
+        padding: 2px;
+
+     }*/
+
+footer{
+  		background-color: lightblue;
+  	    border: solid 2px red;
+  	    font-family: sans-serif;
+  	    font-size: 12px;
+padding: 10px;
+border-radius: 10px; 
+
+        }    
+header {
+background-color: white;
+  	    border: solid 2px red;
+  	    font-family: sans-serif;
+  	    font-size: 12px;
+padding: 10px;
+border-radius: 10px; 
+	
+
+}
+ html, body {
+ 	padding: 0;
+ 	margin: 0;
+ 	height: 100%;
+ }
+
+#main{
+  border: solid 2px #df1;
+  color: #252525;
+  margin: 0px 5px 10px 0px;
+  padding: 5px;
+  width :300px;
+  /*
+   position:absolute;
+   bottom: 5px;
+   right: 5px;
+  */
+  display: inline-block;
+  vertical-align: top;
+}
+
+#results{
+	border: solid 2px #df1;
+	padding: 5px;
+	width: 600px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+.bordered{
+  	    border: solid 2px black;
+  	    border-radius: 5px; 
+}
+
+
+
+#main label{
+	font-weight: bold;
+}
+#main input[type=text],
+#main select {
+	width: 150px;
+}
+
+#main input[type=submit]{
+	background-color: green;
+  	    border: solid 2px black;
+  	    font-family: sans-serif;
+  	    font-size: 12px;
+  	    color: white;
+  	    border-radius: 20px;
+  	    margin-top:5px;
+  	    padding: 5px;
+
+}
+
+.container {
+	width: 1000px;
+	margin: auto;
+	
+	background-color: ivory;
+	padding: 5px;
+
+}
+
+/* Float the nav buttons*/
+header nav{
+	float: right;
+	margin-right: 5px;
+}
+
+header nav li{
+	display: inline;
+	font-size: 18px;
+}
+
+/*change the color of nav buttons*/
+a{
+	color: green;
+}
+
+.result {
+	margin: 5px;
+	border: 1px solid #888;
+}
+
+.result .title {
+	font-weight: bold;
+}
+
+

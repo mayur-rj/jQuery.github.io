@@ -1,0 +1,54 @@
+<!DOCTYPE& >
+<html>
+  <head>
+    <title>Zlatan Labs</title>
+    <link rel="stylesheet" href="site.css" />
+   </head>
+ <body>
+ 	<div id="back">
+   <div class="container">
+   	<header>
+  		<nav>
+      	<ul>
+      		<li><a href="/index.html">Home</a></li>
+      		<li><a href="/contact.html">Contact</a></li>
+      		<li><a href="/about.html">About</a></li>
+      	</ul>
+      </nav>
+      <div>
+      	<img src="images/LogoM.png" class="bordered">
+      </div> 
+      <div>This is a site to search for interesting projects.</div>
+    </header>
+    <section id="main">
+    <p> <b>Github</b> provides to push the source code to work online and get help from the <a href="http://github.com">blog</a>.</p>
+    <form action="http://wilder.azurewebsites.net/echo" method="POST" class= "bordered-image simple form" id="searchForm">
+    	<label for="searchPhrase">Search Phrase:</label>
+    	<input type="text" name="searchPhrase" id="searchPhrase" /><br/>
+    	<label for="langChoice">Languages:</label> 
+    	<select name="langChoice" id="langChoice">
+    		<option selected> All</option>
+    		<option>C</option>
+    		<option>C#</option>
+    		<option>JavaScript</option>
+    		<option>Ruby</option>
+    	</select><br/>
+    	<label for="useStars">Use Stars?</label>
+        <input type="checkbox" name="useStars" id="useStars" checked="true" /> Use Stars?<br/>
+    	<input type="submit" value="search" />
+    </form>
+    </section>
+    <div id="results" class="bordered">
+    	<button id="toggleButton">Hide</button>
+    	<div id="resultJ">This is where the results will end up eventually.</div>
+    </div>
+    
+    <footer>
+    	&copy; 2018 Knights LLC
+    </footer>
+    </div>
+    <script type="text/javascript" src="jquery2.js"></script>
+    <script type="text/javascript" src="index.js"> </script>
+  </body>
+
+</html>    
